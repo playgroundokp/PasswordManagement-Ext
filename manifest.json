@@ -1,0 +1,23 @@
+{
+  "name": "Password Management Extension",
+  "version": "0.0.1",
+  "manifest_version": 2,
+  "description": "This extension provide a password management",
+  "icons": {
+    "16": "icons/icon16.png",
+    "48": "icons/icon48.png",
+    "128": "icons/icon128.png"
+  },
+  "background": {
+    "page": "src/bg/background.html",
+    "persistent": true
+  },
+  "browser_action": {
+    "default_icon": "icons/icon19.png",
+    "default_popup": "src/browser_action/browser_action.html"
+  },
+  "options_ui": {
+    "page": "src/options_ui/options.html",
+    "open_in_tab": true
+  }
+}
